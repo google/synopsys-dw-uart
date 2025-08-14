@@ -5,7 +5,8 @@
 
 This crate provides Rust drivers for the Synopsys DesignWare DW_apb UART.
 
-This is not an officially supported Google product.
+This is not an officially supported Google product. This project is not eligible for the
+[Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security).
 
 ## License
 
