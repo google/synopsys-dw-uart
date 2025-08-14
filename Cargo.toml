@@ -3,6 +3,7 @@ name = "synopsys-dw-uart"
 description = "Driver for Synopsys DesignWare DW_apb_uart."
 version = "0.1.0"
 edition = "2024"
+license = "MIT OR Apache-2.0"
 authors = ["Andrew Walbran <qwandor@google.com>"]
 rust-version = "1.88"
 keywords = ["uart", "driver"]

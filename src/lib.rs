@@ -1,4 +1,6 @@
-// Copyright (c) 2025, Google LLC. All rights reserved.
+// Copyright 2025 Google LLC
+// This project is dual-licensed under Apache 2.0 and MIT terms.
+// See LICENSE-APACHE and LICENSE-MIT for details.
 
 //! Driver for a Synoysys DesignWare DW_apb UART.
 
