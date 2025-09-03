@@ -2,7 +2,7 @@
 // This project is dual-licensed under Apache 2.0 and MIT terms.
 // See LICENSE-APACHE and LICENSE-MIT for details.
 
-//! Driver for a Synoysys DesignWare DW_apb UART.
+//! Driver for a Synopsys DesignWare DW_apb UART.
 
 #![no_std]
 #![deny(clippy::undocumented_unsafe_blocks)]
@@ -17,7 +17,7 @@ use core::{fmt, hint::spin_loop};
 use safe_mmio::{UniqueMmioPointer, field, field_shared};
 use thiserror::Error;
 
-/// Driver for a Synoysys DesignWare DW_apb UART.
+/// Driver for a Synopsys DesignWare DW_apb UART.
 pub struct SynopsysUart<'a> {
     registers: UniqueMmioPointer<'a, Registers>,
 }
