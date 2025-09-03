@@ -24,7 +24,7 @@ pub struct SynopsysUart<'a> {
 
 impl<'a> SynopsysUart<'a> {
     /// Creates a new instance of the UART driver.
-    pub fn new(registers: UniqueMmioPointer<'a, Registers>) -> Self {
+    pub const fn new(registers: UniqueMmioPointer<'a, Registers>) -> Self {
         Self { registers }
     }
 
