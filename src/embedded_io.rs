@@ -20,7 +20,7 @@ impl embedded_io::Error for UartError {
 
 impl Write for SynopsysUart<'_> {
     fn write(&mut self, buf: &[u8]) -> Result<usize, Self::Error> {
-        if !buf.is_empty() {
+        if buf.is_empty() {
             Ok(0)
         } else {
             self.write_word(buf[0]);
