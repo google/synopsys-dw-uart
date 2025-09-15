@@ -6,6 +6,7 @@ edition = "2024"
 license = "MIT OR Apache-2.0"
 authors = ["Andrew Walbran <qwandor@google.com>"]
 rust-version = "1.88"
+repository = "https://github.com/google/synopsys-dw-uart"
 keywords = ["uart", "driver"]
 categories = ["hardware-support", "embedded", "no-std", "no-std::no-alloc"]
 
