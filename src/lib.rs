@@ -122,6 +122,10 @@ impl<'a> SynopsysUart<'a> {
     }
 }
 
+// SAFETY: A `&SynopsysUart` only allows operations which read registers, which can safely be done
+// from multiple threads simultaneously.
+unsafe impl Sync for SynopsysUart<'_> {}
+
 impl fmt::Write for SynopsysUart<'_> {
     fn write_str(&mut self, s: &str) -> fmt::Result {
         for byte in s.as_bytes() {
