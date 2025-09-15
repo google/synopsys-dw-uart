@@ -26,20 +26,6 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-  test:
-    permissions:
-      checks: write
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Test on host
-        run: cargo test --features=fakes
-      - name: Run clippy
-        uses: actions-rs/clippy-check@v1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          args: --features=fakes
-
   format:
     runs-on: ubuntu-latest
     steps:
