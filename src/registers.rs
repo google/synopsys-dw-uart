@@ -167,7 +167,7 @@ impl Fcr {
     pub const TET_HALF_FULL: Self = Self(0b11 << 4);
 }
 
-/// Registers of a Synoysys DesignWare DW_apb UART.
+/// Registers of a Synopsys DesignWare DW_apb UART.
 #[derive(Clone, Eq, FromBytes, Immutable, IntoBytes, KnownLayout, PartialEq)]
 #[repr(C, align(4))]
 pub struct Registers {
