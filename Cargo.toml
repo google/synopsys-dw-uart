@@ -14,7 +14,7 @@ categories = ["hardware-support", "embedded", "no-std", "no-std::no-alloc"]
 bitflags = "2.9.4"
 embedded-io = { version = "0.6", optional = true }
 safe-mmio = "0.2.5"
-thiserror = "2.0.16"
+thiserror = { version = "2.0.16", default-features = false }
 zerocopy = "0.8.27"
 
 [features]
