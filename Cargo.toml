@@ -15,7 +15,7 @@ bitflags = "2.10.0"
 embedded-io = { version = "0.7", optional = true }
 safe-mmio = "0.2.7"
 thiserror = { version = "2.0.18", default-features = false }
-zerocopy = "0.8.33"
+zerocopy = "0.8.34"
 
 [features]
 default = ["embedded-io"]
