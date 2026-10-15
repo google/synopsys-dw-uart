@@ -11,11 +11,11 @@ keywords = ["uart", "driver"]
 categories = ["hardware-support", "embedded", "no-std", "no-std::no-alloc"]
 
 [dependencies]
-bitflags = "2.13.0"
-embedded-io = { version = "0.7", optional = true }
-safe-mmio = "0.3.0"
-thiserror = { version = "2.0.18", default-features = false }
-zerocopy = "0.8.52"
+bitflags = "2.13.2"
+embedded-io = { version = "0.7.1", optional = true }
+safe-mmio = "0.3.2"
+thiserror = { version = "2.0.21", default-features = false }
+zerocopy = "0.8.63"
 
 [features]
 default = ["embedded-io"]
