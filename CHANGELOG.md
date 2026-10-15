@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.0
+
+### Breaking changes
+
+- Updated `safe-mmio` dependency to 0.3.2.
+
 ## 0.2.0
 
 ### Breaking changes
